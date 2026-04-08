@@ -1,4 +1,4 @@
-# 🧭 QuestLog CLI
+# QuestLog CLI
 
 QuestLog is a robust, object-oriented command-line application designed to act as an adventure quest and inventory management assistant.
 
@@ -9,26 +9,24 @@ QuestLog helps you track:
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
-### ⚔️ Dual Execution Modes
+#### Dual Execution Modes
 - Run quick one-off commands
 - Or use an interactive session via `manage` mode
 
-### 🧠 Planning Intelligence
+#### Planning Intelligence
 - Automatically determine which quests are completable with current inventory
-
-### 🔍 Gap Analysis
 - Instantly see missing items and required quantities for any quest
 
-### 📦 Batch Processing
+#### Batch Processing
 - Execute commands from text files
 - Generate detailed success/error reports
 
-### 💾 Persistent Storage
+#### Persistent Storage
 - Uses JSON files to preserve inventory state across sessions
 
-### 🛡️ Robust Error Handling
+#### Robust Error Handling
 Handles:
 - Missing files
 - Invalid inputs
@@ -46,7 +44,7 @@ cd questlog
 ```
 ---
 
-## 📜 Commands
+## Commands
 
 ### 🗺️ Quest Management
 
