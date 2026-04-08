@@ -41,7 +41,7 @@ Handles:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/questlog.git
+git clone (https://github.com/karinaos29/questlog-cli.git)
 cd questlog
 ```
 ---
@@ -60,19 +60,3 @@ cd questlog
 - inventory add "<item_name>" <quantity>	- Adds a specified integer quantity to the inventory.
 - inventory use "<item_name>" <quantity>	- Reduces item quantity; fails if stock is insufficient.
 - inventory process <filepath>	- Executes sequential commands from a text file and generates a report.
-
----
-## 📂 Project Structure
-
-/questlog_project
-├── main.py              # Application entry point and mode selector
-├── questlog/            # Core logic package
-│   ├── manager.py       # QuestLogManager: The central controller/engine
-│   ├── inventory.py     # Inventory: Manages stock state and persistence
-│   └── quest.py         # Quest: Data model for individual missions
-├── config.json          # Stores file paths for quests, inventory, and reports
-├── data/                # Directory for JSON data persistence
-│   ├── quests.json      # Quest requirement definitions
-│   └── inventory.json   # Current player inventory state
-└── reports/             # Directory for batch processing output
-    └── report.txt       # Log of the latest batch process results
