@@ -39,7 +39,7 @@ Handles:
 ### Clone the Repository
 
 ```bash
-git clone (https://github.com/karinaos29/questlog-cli.git)
+git clone https://github.com/karinaos29/questlog-cli.git
 cd questlog
 ```
 ---
