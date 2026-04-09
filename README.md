@@ -12,7 +12,7 @@ QuestLog helps you track:
 ### 🚀 Features
 
 #### Dual Execution Modes
-- Run quick one-off commands
+- Run quick one-off command via `plan`
 - Or use an interactive session via `manage` mode
 
 #### Planning Intelligence
